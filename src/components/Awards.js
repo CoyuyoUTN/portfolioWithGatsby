@@ -5,7 +5,7 @@ import udemy from "../images/udemy.jpg";
 
 const Awards = () => {
   return (
-    <div className="awards-certification-container">
+    <div className="awards-certification-container" id="awards-nav">
       <h2>-Awards and Certification-</h2>
       <div className="awards-links">
         <div className="award-item">

@@ -4,7 +4,7 @@ import { Image } from "antd";
 
 const SupervisedPractice = () => {
   return (
-    <div div className="container-supervisedPractice">
+    <div div className="container-supervisedPractice" id="supervised-nav">
       <h2 className="title-container-pps">-Profesional experience-</h2>
       <div className="supervised-practice">
         <div className="supervised-practice-content">

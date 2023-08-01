@@ -6,7 +6,7 @@ import utnTituloImg from "../images/titulo.jpg";
 
 const Education = () => {
   return (
-    <div className="education-container">
+    <div className="education-container" id="education-nav">
       <h1 className="education">Education</h1>
       <div className="utn-container">
         <h2 className="title-education">UTN</h2>

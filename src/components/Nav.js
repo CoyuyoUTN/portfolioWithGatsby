@@ -11,19 +11,25 @@ const Nav = () => {
       <div class="wrapper">
         <ul>
           <li>
-            <a href="#">Home</a>
+            <a href="#home-nav">Home</a>
           </li>
           <li>
-            <a href="#">About</a>
+            <a href="#about-nav">About_Me</a>
           </li>
           <li>
-            <a href="#">Services</a>
+            <a href="#projects-nav">Projects</a>
           </li>
           <li>
-            <a href="#">Gallery</a>
+            <a href="#education-nav">Education</a>
           </li>
           <li>
-            <a href="#">Feedback</a>
+            <a href="#awards-nav">Awards</a>
+          </li>
+          <li>
+            <a href="#supervised-nav">Experience</a>
+          </li>
+          <li>
+            <a href="#contact-nav">Contact</a>
           </li>
         </ul>
       </div>

@@ -1,9 +1,8 @@
 import React from "react";
 
-
 const AboutMe = () => {
   return (
-    <div className="container-aboutme">
+    <div className="container-aboutme" id="about-nav">
       {" "}
       <div className="about-me ">
         My name is Gonzalo Herrero, I am 32 years old and I currently live in

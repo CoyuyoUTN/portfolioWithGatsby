@@ -68,7 +68,7 @@ table {
   font-weight: 800;
   color: aliceblue;
   font-family: 'Raleway', sans-serif;
-  height: 100vh;
+  height: 90vh;
   width: 80%;
   align-self: center;
   display: flex;
@@ -219,7 +219,7 @@ table {
   /* background: linear-gradient(375deg, #1cc7d0, #2ede98); */
  /* background: linear-gradient(-45deg, #e3eefe 0%, #efddfb 100%);*/
   transition: all 0.6s ease-in-out;
-  z-index: 1;
+  z-index: 10;
 }
 #active:checked ~ .wrapper{
   /*left: 0;*/
@@ -227,7 +227,7 @@ table {
 }
 .menu-btn{
   position: fixed;
-  z-index: 2;
+  z-index: 15;
   right: 20px;
   left: 20px; 
   margin-top: 10px;
@@ -496,7 +496,7 @@ input[type="checkbox"]{
   }
 
   .container h1 {
-    font-size: 35px !important;
+    font-size: 30px !important;
   }
 }
 
@@ -710,7 +710,7 @@ margin-top: 750px;
 	letter-spacing: 10px;
 	text-align: center;
 	font-family: Lora, serif;
-	font-weight: 200;
+	font-weight: 800;
   color: #ffffff;
   margin-bottom: 30px;
 }
@@ -729,6 +729,8 @@ margin-top: 750px;
   .education {
     font-size: 28px; /* Ajustar el tamaño de fuente para pantallas más pequeñas */
     padding: 10px 0; /* Ajustar el espaciado interior para pantallas más pequeñas */
+    align-items: center;
+    text-align: center;
   }
 }
 
@@ -788,7 +790,6 @@ margin-top: 750px;
 
 .awards-certification-container h2{
 	font-size: 3rem;
-
 	text-transform: uppercase;
 	letter-spacing: 10px;
 	text-align: center;
@@ -823,7 +824,7 @@ margin-top: 750px;
 
 @media screen and (max-width: 500px) {
   .awards-certification-container h2 {
-    font-size: 30px; /* Ajustar el tamaño de fuente para pantallas más pequeñas */
+    font-size: 25px; /* Ajustar el tamaño de fuente para pantallas más pequeñas */
     padding: 5px 0; /* Ajustar el espaciado interior para pantallas más pequeñas */
   }
 }
@@ -1359,6 +1360,12 @@ border: solid 4px #666060;
     height: 100%;
     display: block;
     border-radius: 10%;
+  }
+}
+
+@media (max-width: 500px) {
+  .title-container-pps{
+    font-size: 28px;
   }
 }
 

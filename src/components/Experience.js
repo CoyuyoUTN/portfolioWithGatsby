@@ -12,7 +12,7 @@ import { SiGithub } from "@react-icons/all-files/si/SiGithub";
 
 const Experience = () => {
   return (
-    <div class="container">
+    <div class="container" id="projects-nav">
       <div>
         <h1>Projects</h1>
         <div class="boxes">

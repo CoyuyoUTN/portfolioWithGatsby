@@ -4,9 +4,12 @@ import ModalForm from "./Modalform";
 
 const Footer = () => {
   return (
-    <footer className="footer">
+    <footer className="footer" id="contact-nav">
       <div id="social-platforms">
-        <a class="btn btn-icon btn-facebook" href="#">
+        <a
+          class="btn btn-icon btn-facebook"
+          href="https://github.com/CoyuyoUTN"
+        >
           <i class="fa fa-github"></i>
           <span>GitHub</span>
         </a>
@@ -14,7 +17,10 @@ const Footer = () => {
           <i class="fa fa-google-plus"></i>
           <span>Google+</span>
         </a>
-        <a class="btn btn-icon btn-linkedin" href="#">
+        <a
+          class="btn btn-icon btn-linkedin"
+          href="https://www.linkedin.com/in/herrerogonzalo/"
+        >
           <i class="fa fa-linkedin"></i>
           <span>LinkedIn</span>
         </a>
