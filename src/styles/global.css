@@ -628,10 +628,13 @@ input[type="checkbox"]{
   gap: 50px;
 }
 
+.img-titleutn{
+  margin-bottom: 50px;
+}
 /*-----------------------*/
 .slider{
 	height: 250px;
-	margin: auto;
+	margin-top: 150px;
 	position: relative;
 	width: 90%;
 	display: grid;
@@ -691,7 +694,7 @@ input[type="checkbox"]{
 
 @media screen and (max-width: 500px) {
   .slider {
-margin-top: 500px;
+margin-top: 750px;
   }
 
   .slide{
@@ -1191,7 +1194,7 @@ border: solid 4px #666060;
 
 @media screen and (max-width: 400px) {
 .footer{
-  margin-top: 300px;
+  margin-top: 400px;
 }
 
 .download-container,
