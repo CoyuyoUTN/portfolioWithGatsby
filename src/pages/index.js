@@ -10,11 +10,13 @@ import ImageCarousel from "../components/ImageCarousel ";
 import Awards from "../components/Awards";
 import Footer from "../components/Footer";
 import SupervisedPractice from "../components/SupervisedPractice";
+import WhatsApp from "../components/WhatsApp";
 
 const IndexPage = () => {
   return (
     <div className="container-home">
       <Nav />
+      <WhatsApp />
       <MainPage />
       <AboutMe />
       <Experience />

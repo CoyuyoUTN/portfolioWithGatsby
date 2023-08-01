@@ -486,6 +486,20 @@ input[type="checkbox"]{
   color: #d8d8d8;
 }
 
+.icon a{
+  font-size: 2.5rem;
+}
+
+@media screen and (max-width: 500px) {
+  .icon a{
+    font-size: 2rem;
+  }
+
+  .container h1 {
+    font-size: 35px !important;
+  }
+}
+
 .box h2 {
   font-size: 1.3em;
   margin-bottom: 1em;
@@ -806,7 +820,7 @@ margin-top: 500px;
 
 @media screen and (max-width: 500px) {
   .awards-certification-container h2 {
-    font-size: 20px; /* Ajustar el tamaño de fuente para pantallas más pequeñas */
+    font-size: 30px; /* Ajustar el tamaño de fuente para pantallas más pequeñas */
     padding: 5px 0; /* Ajustar el espaciado interior para pantallas más pequeñas */
   }
 }
@@ -1210,7 +1224,7 @@ border: solid 4px #666060;
 
 @media screen and (max-width: 500px) {
   .title-container-pps {
-    font-size: 24px; /* Ajustar el tamaño de fuente para pantallas más pequeñas */
+    font-size: 30px; /* Ajustar el tamaño de fuente para pantallas más pequeñas */
     padding: 10px 0; /* Ajustar el espaciado interior para pantallas más pequeñas */
   }
 }
@@ -1345,4 +1359,102 @@ border: solid 4px #666060;
   }
 }
 
+/*---------------------------------*/
 
+#whatsapp {
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	font-size:30px;
+	z-index:100;
+  }
+
+  #whatsapp-icon {
+	margin-top:15px;
+  }
+
+  @media only screen and (max-width: 770px){
+    #whatsapp {
+      width: 45px;
+      height: 45px;
+      right:5px;
+      font-size: 30px;
+    }
+ 
+    #whatsapp-icon{
+      padding-bottom: 5px;
+      margin-top:9px;
+    }
+    }
+
+
+/*----------------------------------------*/
+
+.contact-form {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.contact-form label {
+  color: black;
+}
+
+.contact-form .heading {
+  font-size: 24px;
+  color: black;
+  ;
+  margin-bottom: 12px;
+  font-weight: bold;
+  display: block;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form label {
+  margin-bottom: 10px;
+}
+
+textarea {
+  resize: none;
+  height: 80px;
+  width: 200px;
+}
+
+.contact-form input, .contact-form textarea {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.contact-form input:focus, .contact-form textarea:focus {
+  outline: none;
+  box-shadow: 0 0 5px #ff6384;
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
+
+.contact-form button[type="submit"] {
+  background-color: #ff6384;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.contact-form button[type="submit"]:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}

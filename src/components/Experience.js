@@ -39,7 +39,7 @@ const Experience = () => {
             <p class="icon">
               <a href="https://github.com/CoyuyoUTN/TpLab2021">
                 {" "}
-                <SiGithub />
+                <SiGithub /> Github
               </a>
             </p>
           </div>
@@ -61,7 +61,7 @@ const Experience = () => {
             <p class="icon">
               <a href="https://github.com/CoyuyoUTN/TP-Labo4">
                 {" "}
-                <SiGithub />
+                <SiGithub /> Github
               </a>
             </p>
           </div>
@@ -88,7 +88,7 @@ const Experience = () => {
             <p class="icon">
               <a href="https://github.com/CoyuyoUTN/App-notes-React">
                 {" "}
-                <SiGithub />
+                <SiGithub /> Github
               </a>
             </p>
           </div>
@@ -113,7 +113,7 @@ const Experience = () => {
             <p class="icon">
               <a href="https://github.com/CoyuyoUTN/React-Project-with-Apis">
                 {" "}
-                <SiGithub />
+                <SiGithub /> Github
               </a>
             </p>
           </div>
@@ -141,7 +141,7 @@ const Experience = () => {
             <p class="icon">
               <a href="https://github.com/CoyuyoUTN/NewEcommerce">
                 {" "}
-                <SiGithub />
+                <SiGithub /> Github
               </a>
             </p>
           </div>
@@ -170,7 +170,7 @@ const Experience = () => {
             <p class="icon">
               <a href="https://github.com/CoyuyoUTN/laundry-page">
                 {" "}
-                <SiGithub />
+                <SiGithub /> Github
               </a>
             </p>
           </div>
@@ -202,7 +202,7 @@ const Experience = () => {
             <p class="icon">
               <a href="https://github.com/CoyuyoUTN/flete-website">
                 {" "}
-                <SiGithub />
+                <SiGithub /> Github
               </a>
             </p>
           </div>

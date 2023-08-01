@@ -1,16 +1,22 @@
 import React, { useState } from "react";
-import { Modal } from "antd";
+import { Modal, Button } from "antd";
+import FormEmail from "./FormEmail";
 
 const ModalForm = () => {
-  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [loading, setLoading] = useState(false);
+  const [open, setOpen] = useState(false);
   const showModal = () => {
-    setIsModalOpen(true);
+    setOpen(true);
   };
   const handleOk = () => {
-    setIsModalOpen(false);
+    setLoading(true);
+    setTimeout(() => {
+      setLoading(false);
+      setOpen(false);
+    }, 3000);
   };
   const handleCancel = () => {
-    setIsModalOpen(false);
+    setOpen(false);
   };
   return (
     <div className="modal-container">
@@ -18,13 +24,17 @@ const ModalForm = () => {
         <span>Contact me</span>
       </button>
       <Modal
-        title="Basic Modal"
-        open={isModalOpen}
+        open={open}
+        title="Welcome!"
         onOk={handleOk}
         onCancel={handleCancel}
+        footer={[
+          <Button key="back" onClick={handleCancel}>
+            Return
+          </Button>,
+        ]}
       >
-        <p>Some contents...</p>
-        <p>Some contents...</p>
+        <FormEmail />
       </Modal>
     </div>
   );
