@@ -8,12 +8,14 @@ const ModalForm = () => {
   const showModal = () => {
     setOpen(true);
   };
+
   const handleOk = () => {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
       setOpen(false);
     }, 3000);
+    console.log(loading);
   };
   const handleCancel = () => {
     setOpen(false);
