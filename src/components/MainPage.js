@@ -1,5 +1,4 @@
 import React from "react";
-import ModalForm from "./Modalform";
 
 const MainPage = () => {
   return (
