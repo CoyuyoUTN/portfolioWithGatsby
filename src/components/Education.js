@@ -11,7 +11,7 @@ const Education = () => {
       <div className="utn-container">
         <h2 className="title-education">UTN</h2>
         <p>
-          <strong>University Degree in Technical Programming</strong>
+          <strong className="education-p">University Degree in Technical Programming</strong>
         </p>
         <div className="img-titleutn">
           {" "}
@@ -25,7 +25,7 @@ const Education = () => {
       <div className="avalith-container">
         <h2 className="title-education">Avalith</h2>
         <p>
-          <strong>React.js developer</strong>
+          <strong className="education-p">React.js developer</strong>
         </p>
         <div className="avalith-images">
           <Image.PreviewGroup

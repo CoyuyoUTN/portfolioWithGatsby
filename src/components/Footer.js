@@ -1,6 +1,6 @@
 import React from "react";
 import PdfDownload from "./PdfDownload";
-import ModalForm from "./Modalform";
+import ModalForm from "./ModalForm";
 
 const Footer = () => {
   return (
