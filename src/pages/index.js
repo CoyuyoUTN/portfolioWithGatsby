@@ -12,6 +12,7 @@ import Footer from "../components/Footer";
 import SupervisedPractice from "../components/SupervisedPractice";
 import WhatsApp from "../components/WhatsApp";
 import ButtonUp from "../components/ButtonUp";
+import { FcBriefcase } from "@react-icons/all-files/c/FcBriefcase";
 
 const IndexPage = () => {
   return (
@@ -33,4 +34,9 @@ const IndexPage = () => {
 
 export default IndexPage;
 
-export const Head = () => <title>Home Page</title>;
+export const Head = () => (
+  <title>
+    <FcBriefcase />
+    Gonzalo Herrero Portfolio
+  </title>
+);
