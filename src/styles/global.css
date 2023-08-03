@@ -773,6 +773,7 @@ margin-top: 750px;
 
 .award-item {
   text-align: center;
+  width: 350px;
 }
 
 .award-item a {
@@ -785,7 +786,7 @@ margin-top: 750px;
   height: auto;
 }
 
-.award-item h3 {
+.p-image-award {
   color: #666;
   font-size: 18px;
   margin-top: 10px;
@@ -1234,6 +1235,8 @@ border: solid 4px #666060;
     font-size: 30px; /* Ajustar el tamaño de fuente para pantallas más pequeñas */
     padding: 10px 0; /* Ajustar el espaciado interior para pantallas más pequeñas */
   }
+  
+  
 }
 /* Estilos para dispositivos más grandes (mayor o igual a 768px) */
 @media (min-width: 768px) {
@@ -1315,7 +1318,7 @@ border: solid 4px #666060;
     width: 100%;
     background-color: #000;
     color: white; 
-    margin-top: 30px;
+    margin-top: 150px;
   }
 
   .supervised-practice {
@@ -1606,3 +1609,25 @@ textarea {
     opacity: 1;
   }
 }
+
+@media only screen and (max-width: 770px){
+.Btn-footer{
+  width: 45px;
+  height: 45px;
+  right:5px;
+}
+
+
+  }
+
+  .a-link-deploy{
+    font-size: 30px;
+  }
+
+  @media only screen and (max-width: 770px){
+    .a-link-deploy{
+      font-size: 20px;
+    }
+    
+    
+      }

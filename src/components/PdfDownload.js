@@ -1,5 +1,5 @@
 import React from "react";
-import cv from "../cv/cvdev-gonzaloHerrero.pdf";
+import cv from "../cv/GonzaloHerreroCV.pdf";
 
 const PdfDownload = () => {
   return (

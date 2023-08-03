@@ -5,10 +5,12 @@ import randm from "../videos/RickAndMortyCards.mp4";
 import ecommerce from "../videos/ecommerce.mp4";
 import flete from "../videos/minifletes.mp4";
 import laundry from "../videos/LavaderoAgüitas.mp4";
+import library from "../videos/library.mp4";
 import { FaJava } from "@react-icons/all-files/fa/FaJava";
 import { FaPhp } from "@react-icons/all-files/fa/FaPhp";
 import { FaReact } from "@react-icons/all-files/fa/FaReact";
 import { SiGithub } from "@react-icons/all-files/si/SiGithub";
+import { SiNetlify } from "@react-icons/all-files/si/SiNetlify";
 
 const Experience = () => {
   return (
@@ -91,6 +93,12 @@ const Experience = () => {
                 <SiGithub /> Github
               </a>
             </p>
+            <a
+              className="a-link-deploy"
+              href="https://coyuyoutn.github.io/React-with-redux-taskNotes/"
+            >
+              <SiNetlify /> Deploy
+            </a>
           </div>
           <div class="box">
             <p class="icon">
@@ -116,6 +124,12 @@ const Experience = () => {
                 <SiGithub /> Github
               </a>
             </p>
+            <a
+              className="a-link-deploy"
+              href="https://coyuyoutn.github.io/React-Project-with-Apis/"
+            >
+              <SiNetlify /> Deploy
+            </a>
           </div>
           <div class="box">
             <p class="icon">
@@ -144,6 +158,12 @@ const Experience = () => {
                 <SiGithub /> Github
               </a>
             </p>
+            <a
+              className="a-link-deploy"
+              href=" https://ecommerce-app-skill-factory.vercel.app/"
+            >
+              <SiNetlify /> Deploy
+            </a>
           </div>
           <div class="box">
             <p class="icon">
@@ -173,6 +193,12 @@ const Experience = () => {
                 <SiGithub /> Github
               </a>
             </p>
+            <a
+              className="a-link-deploy"
+              href=" https://lavadero-aguitas.netlify.app/"
+            >
+              <SiNetlify /> Deploy
+            </a>
           </div>
         </div>
         <div class="boxes">
@@ -205,9 +231,45 @@ const Experience = () => {
                 <SiGithub /> Github
               </a>
             </p>
+            <a
+              className="a-link-deploy"
+              href=" https://minifletes-tioyuyo.netlify.app/"
+            >
+              <SiNetlify /> Deploy
+            </a>
           </div>
-          <div class="box"></div>
-          <div class="box"></div>
+          <div class="box">
+            <p class="icon">
+              React <FaReact />
+            </p>
+            <h2>Avalith SkillFactory</h2>
+            <p class="piece-count">
+              This React project features a CRUD system for products, accessible
+              exclusively to administrators through secure login functionality.
+              Redux Toolkit is employed for state management, while Bootstrap
+              and Ant Design provide a polished user interface. React Router DOM
+              ensures smooth navigation throughout the application, allowing
+              authorized administrators to perform essential Create, Read,
+              Update, and Delete operations on products with confidence.
+            </p>
+            <div class="video-container">
+              <video width="420" height="340" controls autoplay muted>
+                <source src={library} type="video/mp4" />
+              </video>
+            </div>
+            <p class="icon">
+              <a href="https://github.com/CoyuyoUTN/Library--admin-with-react">
+                {" "}
+                <SiGithub /> Github
+              </a>
+            </p>
+            <a
+              className="a-link-deploy"
+              href=" https://library-react-avalith.netlify.app/"
+            >
+              <SiNetlify /> Deploy
+            </a>
+          </div>
         </div>
       </div>
     </div>
