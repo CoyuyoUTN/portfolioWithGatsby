@@ -16,7 +16,7 @@ const Experience = () => {
   return (
     <div class="container" id="projects-nav">
       <div>
-        <h1>Projects</h1>
+        <h1 className="title-section">Projects</h1>
         <div class="boxes">
           <div class="box">
             <p class="icon">

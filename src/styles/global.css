@@ -708,8 +708,8 @@ margin-top: 750px;
 	letter-spacing: 10px;
 	text-align: center;
 	font-family: Lora, serif;
-	font-weight: 800;
   color: #ffffff;
+  margin-top: 30px;
   margin-bottom: 30px;
 }
 .education::before {
