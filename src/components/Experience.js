@@ -5,12 +5,14 @@ import randm from "../videos/RickAndMortyCards.mp4";
 import ecommerce from "../videos/ecommerce.mp4";
 import flete from "../videos/minifletes.mp4";
 import laundry from "../videos/LavaderoAgüitas.mp4";
+import CRUDLaravel from "../videos/CRUD laravel 10.mp4";
 import library from "../videos/library.mp4";
 import { FaJava } from "@react-icons/all-files/fa/FaJava";
 import { FaPhp } from "@react-icons/all-files/fa/FaPhp";
 import { FaReact } from "@react-icons/all-files/fa/FaReact";
 import { SiGithub } from "@react-icons/all-files/si/SiGithub";
 import { SiNetlify } from "@react-icons/all-files/si/SiNetlify";
+import { FaLaravel } from "@react-icons/all-files/fa/FaLaravel";
 
 const Experience = () => {
   return (
@@ -270,6 +272,34 @@ const Experience = () => {
               <SiNetlify /> Deploy
             </a>
           </div>
+        </div>
+        <div class="boxes">
+          <div class="box">
+            <p class="icon">
+              Laravel <FaLaravel />
+            </p>
+            <h2>Personal project</h2>
+            <p class="piece-count">
+              I have developed a personal project using Laravel 10, focused on
+              implementing a CRUD system for managing notes along with
+              associated tasks. The project utilized Laragon as the development
+              environment and employed a MySQL relational database for data
+              management. This undertaking showcases my proficiency in Laravel
+              framework, database management, and web application development.
+            </p>
+            <div class="video-container">
+              <video width="420" height="340" controls autoplay muted>
+                <source src={CRUDLaravel} type="video/mp4" />
+              </video>
+            </div>
+            <p class="icon">
+              <a href="https://github.com/CoyuyoUTN/CRUD-Laravel">
+                {" "}
+                <SiGithub /> Github
+              </a>
+            </p>
+          </div>
+          <div class="box"></div>
         </div>
       </div>
     </div>
