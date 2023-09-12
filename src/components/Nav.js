@@ -1,6 +1,17 @@
 import React from "react";
 
 const Nav = () => {
+  // Selecciona todos los enlaces que deben cerrar el navbar
+  const navLinks = document.querySelectorAll(".navbar a");
+
+  // Agrega un evento de clic a cada enlace
+  navLinks.forEach((link) => {
+    link.addEventListener("click", () => {
+      // Desactiva la casilla de verificación del menú
+      const checkbox = document.getElementById("active");
+      checkbox.checked = false;
+    });
+  });
   return (
     <div className="navbar">
       <input type="checkbox" id="active" />
