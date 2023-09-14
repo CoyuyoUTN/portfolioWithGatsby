@@ -1,11 +1,11 @@
 import React from "react";
 
-const MainPage = () => {
+const MainPage = ({ t }) => {
   return (
     <div className="main-page home-title" id="home-nav">
-      <span>Hi, im Gonzalo!,</span>
-      <span>University Degree in Technical Programming</span>
-      <span>UTN, Mar del Plata</span>
+      <span>{t("presentationp1")}</span>
+      <span>{t("presentationp2")}</span>
+      <span>{t("presentationp3")}</span>
     </div>
   );
 };
