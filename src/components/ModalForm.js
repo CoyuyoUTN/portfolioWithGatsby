@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Modal, Button } from "antd";
 import FormEmail from "./FormEmail";
 
-const ModalForm = () => {
+const ModalForm = ({ t }) => {
   const [loading, setLoading] = useState(false);
   const [open, setOpen] = useState(false);
   const showModal = () => {
@@ -35,7 +35,7 @@ const ModalForm = () => {
             fill="currentColor"
           ></path>
         </svg>
-        <span>Contact me</span>
+        <span>{t("modal")}</span>
       </button>
       <Modal
         open={open}
@@ -43,11 +43,11 @@ const ModalForm = () => {
         onCancel={handleCancel}
         footer={[
           <Button key="back" onClick={handleCancel}>
-            Return
+            {t("modal1")}
           </Button>,
         ]}
       >
-        <FormEmail />
+        <FormEmail t={t} />
       </Modal>
     </div>
   );

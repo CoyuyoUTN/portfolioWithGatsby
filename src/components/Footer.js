@@ -2,7 +2,7 @@ import React from "react";
 import ModalForm from "./ModalForm";
 import cv from "../cv/GonzaloHerreroCV.pdf";
 
-const Footer = () => {
+const Footer = ({ t }) => {
   return (
     <footer className="footer" id="contact-nav">
       <div id="social-platforms">
@@ -41,12 +41,12 @@ const Footer = () => {
                   fill="currentColor"
                 ></path>
               </svg>
-              <span>Download CV</span>
+              <span>{t("footer1")}</span>
             </button>
           </a>
         </div>
         <div className="footer-modal-container ">
-          <ModalForm />
+          <ModalForm t={t} />
         </div>
       </div>
     </footer>

@@ -4,14 +4,14 @@ import avalithImg1 from "../images/skillfactoryReact.jpg";
 import avalithImg2 from "../images/ceritifcado-avalith-workshop.png";
 import utnTituloImg from "../images/titulo.jpg";
 
-const Education = () => {
+const Education = ({ t }) => {
   return (
     <div className="education-container" id="education-nav">
-      <h1 className="education">Education</h1>
+      <h1 className="education">{t("education")}</h1>
       <div className="utn-container">
         <h2 className="title-education">UTN</h2>
         <p>
-          <strong className="education-p">University Degree in Technical Programming</strong>
+          <strong className="education-p">{t("presentationp2")}</strong>
         </p>
         <div className="img-titleutn">
           {" "}

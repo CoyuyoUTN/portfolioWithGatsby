@@ -7,7 +7,7 @@ import withReactContent from "sweetalert2-react-content";
 
 const MySwal = withReactContent(Swal);
 
-const FormEmail = () => {
+const FormEmail = ({ t }) => {
   const {
     register,
     handleSubmit,
@@ -48,9 +48,9 @@ const FormEmail = () => {
 
   return (
     <div class="contact-form">
-      <span class="heading">Contact me</span>
+      <span class="heading">{t("modal")}</span>
       <form onSubmit={handleSubmit(onSubmit)}>
-        <label for="name">Name:</label>
+        <label for="name">{t("form")}</label>
         <input
           type="text"
           name="name"
@@ -93,7 +93,7 @@ const FormEmail = () => {
         {errors.mail && (
           <span className="form__input-error">{errors.mail.message}</span>
         )}
-        <label for="message">Message:</label>
+        <label for="message">{t("form1")}</label>
         <textarea
           name="message"
           id="formMensaggeId"
@@ -106,7 +106,7 @@ const FormEmail = () => {
           <span className="form__input-error">{errors.message.message}</span>
         )}
         <button type="submit" id="button" value="Send Email">
-          Submit
+          {t("form2")}
         </button>
       </form>
     </div>

@@ -32,17 +32,17 @@ const IndexPage = () => {
           <button onClick={changeLenguageEsp}> Cambiar al español</button>
           <button onClick={changeLenguageEng}> Cambiar al ingles</button>
 
-          <Nav />
+          <Nav t={t} />
           <WhatsApp />
           <MainPage t={t} />
           <AboutMe t={t} />
-          <Experience />
-          <Education />
+          <Experience t={t} />
+          <Education t={t} />
           <BannerMove />
-          <Awards />
-          <SupervisedPractice />
-          <ButtonUp />
-          <Footer />
+          <Awards t={t} />
+          <SupervisedPractice t={t} />
+          <ButtonUp t={t} />
+          <Footer t={t} />
         </div>
       </Suspense>
     </>
