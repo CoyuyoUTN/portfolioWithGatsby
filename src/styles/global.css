@@ -60,13 +60,13 @@ table {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: rgb(17, 16, 16);
+  background-image: url("../images/cool-background.png");
 }
 
 
 .main-page{
   font-weight: 800;
-  color: aliceblue;
+  color: rgb(10, 11, 11);
   font-family: 'Raleway', sans-serif;
   height: 90vh;
   width: 80%;
@@ -145,7 +145,7 @@ table {
   right: 0;
   width: 100%;
   height: 100%;
-  background: rgb(255, 255, 255);
+  background-image: url("../images/cool-background.png");
   animation: a-ltr-after 2s cubic-bezier(.77,0,.18,1) forwards;
   transform: translateX(-101%);
 }
@@ -157,7 +157,7 @@ table {
   right: 0;
   width: 100%;
   height: 100%;
-  background: var(--bg-color);
+  background-image: url("../images/cool-background.png");
   animation: a-ltr-before 2s cubic-bezier(.77,0,.18,1) forwards;
   transform: translateX(0);
 }
@@ -214,7 +214,7 @@ table {
   right: -100%;
   height: 100%;
   width: 100%;
-  background: #000;
+  background-image: url("../images/cool-background.png");
   /*background: linear-gradient(90deg, #f92c78, #4114a1);*/
   /* background: linear-gradient(375deg, #1cc7d0, #2ede98); */
  /* background: linear-gradient(-45deg, #e3eefe 0%, #efddfb 100%);*/
@@ -301,7 +301,7 @@ table {
   font-size: 30px;
   font-weight: 500;
   padding: 5px 30px;
-  color: #fff;
+  color: #000000;
   border-radius: 50px;
   position: absolute;
   line-height: 50px;
@@ -377,7 +377,6 @@ input[type="checkbox"]{
   justify-content: flex-start;
   flex-direction: row;
   height: 100vh;
-  background-color: aliceblue;
   background-image: url("../images/backgrouind.jpg");
   background-repeat: no-repeat;
   background-position: center center;
@@ -431,25 +430,25 @@ input[type="checkbox"]{
 }
 
 .container h1 {
-  font-size: 2.5em;
+  font-size: 3.5em;
   text-transform: uppercase;
   letter-spacing: 10px;
   text-align: center;
   font-family: Lora, serif;
   font-weight: 200;
-  color: #ffffff;
+  color: #000000;
 }
 
 .container h1::before {
   content: '─';
   margin-right: 0.6em;
-  color: #ffffff;
+  color: #030303;
 }
 
 .container h1::after {
   content: '─';
   margin-left: 0.6em;
-  color: #ffffff;
+  color: #000000;
 }
 
 .boxes {
@@ -460,6 +459,9 @@ input[type="checkbox"]{
 }
 
 .box {
+  display: flex;
+    flex-direction: column;
+    gap: 10px;
   width: 30vw;
   font-size: 1em;
   line-height: 1.5em;
@@ -478,20 +480,20 @@ input[type="checkbox"]{
 
 .box .icon {
   font-size: 4em;
-  color: #555;
+  color: #000000;
   margin-bottom: 0.6em;
 }
 
-.box .icon:hover {
-  color: #d8d8d8;
-}
+
 
 .icon a{
+  
   font-size: 2.5rem;
 }
 
 @media screen and (max-width: 500px) {
   .icon a{
+   
     font-size: 2rem;
   }
 
@@ -507,12 +509,12 @@ input[type="checkbox"]{
   letter-spacing: 4px;
   font-weight: 200;
   line-height: 1em;
-  color: #f2f2f2;
+  color: #000000;
 }
 
 .box .piece-count {
   font-style: italic;
-  color: #9f9f9f;
+  color: #000000;
   margin-bottom: 1.2em;
   letter-spacing: 1px;
   font-family: Lora, serif;
@@ -682,19 +684,19 @@ margin-top: 800px;
 	letter-spacing: 10px;
 	text-align: center;
 	font-family: Lora, serif;
-  color: #ffffff;
+  color: #000000;
   margin-top: 30px;
   margin-bottom: 30px;
 }
 .education::before {
 	content: '─';
 	margin-right: 0.6em;
-	color: #ffffff;
+	color: #000000;
 }
 .education::after {
 	content: '─';
 	margin-left: 0.6em;
-	color: #ffffff;
+	color: #000000;
 }
 
 @media screen and (max-width: 500px) {
@@ -773,7 +775,7 @@ margin-top: 800px;
 	text-align: center;
 	font-family: Lora, serif;
 	font-weight: 200;
-  color: #ffffff;
+  color: #000000;
   margin-bottom: 80px;
 }
 
@@ -784,7 +786,7 @@ margin-top: 800px;
 	text-align: center;
 	font-family: Lora, serif;
 	font-weight: 200;
-  color: #ffffff;
+  color: #000000;
   margin-bottom: 80px;
 }
 
@@ -856,7 +858,8 @@ border: solid 4px #666060;
 /*----------------------------------------------------------------*/
 
 .footer {
-  background: linear-gradient(to bottom, #000000, #262626);
+  background-image: url("../images/cool-background-footer.png");
+  background-size: cover;
   color: white;
   height: 50vh;
   width: 100%;
@@ -1000,7 +1003,8 @@ border: solid 4px #666060;
 
 @media screen and (max-width: 360px) {
   .footer {
-    height: 60vh;
+    height: 70vh;
+    
   }
 }
 
@@ -1179,7 +1183,7 @@ border: solid 4px #666060;
   .container-supervisedPractice{
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
     background-color: #000;
     color: white; 
@@ -1240,6 +1244,13 @@ border: solid 4px #666060;
   }
 }
 
+@media (max-width: 360px) {
+  .container-supervisedPractice{
+    min-height: 100vh;
+    margin-bottom: -280px;
+    
+  }
+}
 /*---------------------------------*/
 
 #whatsapp {
@@ -1527,3 +1538,58 @@ textarea {
       .cssbuttons-io-button:active {
         box-shadow: 0 0.3em 1em -0.5em #4d36d0be;
       }
+
+      /*-------------*/
+      
+
+      .btn-translate-en {
+        font-size: 1em;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        color: #504f4f;
+        text-align: center;
+        border-radius: 50%;
+        background: #e0e0e0;
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+        width:50px;
+        height:50px;
+        position: fixed;
+        top: 10px; /* Ajusta la distancia desde la parte superior de la pantalla */
+        right: 10px; /* Ajusta la distancia desde la parte derecha de la pantalla */
+        cursor: pointer; /* Cambia el cursor al pasar sobre los botones */
+        z-index: 1000; /* Ajusta el índice Z para asegurarte de que los botones estén encima de otros elementos */
+        
+      }
+      
+      .btn-translate-en:hover {
+        background: #e0e0e0;
+        -webkit-box-shadow: inset 10px 10px 30px #bebebe, inset -10px -10px 30px #ffffff;
+        box-shadow: inset 10px 10px 30px #bebebe, inset -10px -10px 30px #ffffff;
+      }
+
+      .btn-translate-es {
+        font-size: 1em;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        color: #504f4f;
+        text-align: center;
+        border-radius: 50%;
+        background: #e0e0e0;
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+        width:50px;
+        height:50px;
+        position: fixed;
+        top: 10px; /* Ajusta la distancia desde la parte superior de la pantalla */
+        right: 70px; /* Ajusta la distancia desde la parte derecha de la pantalla */
+        cursor: pointer; /* Cambia el cursor al pasar sobre los botones */
+        z-index: 1000; /* Ajusta el índice Z para asegurarte de que los botones estén encima de otros elementos */
+        
+      }
+      
+      .btn-translate-es:hover {
+        background: #e0e0e0;
+        -webkit-box-shadow: inset 10px 10px 30px #bebebe, inset -10px -10px 30px #ffffff;
+        box-shadow: inset 10px 10px 30px #bebebe, inset -10px -10px 30px #ffffff;
+      }
+
+      /*------------------------------------------------------------*/

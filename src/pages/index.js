@@ -29,8 +29,12 @@ const IndexPage = () => {
     <>
       <Suspense fallback="Loading translate">
         <div className="container-home">
-          <button onClick={changeLenguageEsp}> Cambiar al español</button>
-          <button onClick={changeLenguageEng}> Cambiar al ingles</button>
+          <button className="btn-translate-es" onClick={changeLenguageEsp}>
+            es
+          </button>
+          <button className="btn-translate-en" onClick={changeLenguageEng}>
+            en
+          </button>
 
           <Nav t={t} />
           <WhatsApp />
