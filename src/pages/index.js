@@ -41,8 +41,8 @@ const IndexPage = () => {
           <MainPage t={t} />
           <AboutMe t={t} />
           <Experience t={t} />
+          <BannerMove t={t} />
           <Education t={t} />
-          <BannerMove />
           <Awards t={t} />
           <SupervisedPractice t={t} />
           <ButtonUp t={t} />
