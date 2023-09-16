@@ -14,11 +14,11 @@ import ButtonUp from "../components/ButtonUp";
 import BannerMove from "../components/BannerMove";
 
 import "../config/i18next.config";
-import { useTranslation } from "react-i18next";
-import { Suspense } from "react";
+import { I18nextProvider, useTranslation } from "react-i18next";
 
 const IndexPage = () => {
-  const { t, i18n } = useTranslation(["aboutme"]);
+  const [t, i18n] = useTranslation(["global"]);
+
   const changeLenguageEsp = () => {
     i18n.changeLanguage("es");
   };
@@ -27,7 +27,7 @@ const IndexPage = () => {
   };
   return (
     <>
-      <Suspense fallback="Loading translate">
+      <I18nextProvider>
         <div className="container-home">
           <button className="btn-translate-es" onClick={changeLenguageEsp}>
             es
@@ -48,7 +48,7 @@ const IndexPage = () => {
           <ButtonUp t={t} />
           <Footer t={t} />
         </div>
-      </Suspense>
+      </I18nextProvider>
     </>
   );
 };
