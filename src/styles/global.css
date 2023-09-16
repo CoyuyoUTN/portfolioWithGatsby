@@ -201,6 +201,12 @@ table {
     font-size: 1.5rem; /* Ajusta el tamaño de fuente según tu preferencia */
   }
 }
+@media screen and (max-width: 320px) {}
+.home-title span:nth-of-type(2){
+  font-size: 2rem;
+}
+
+
 /*--------------------------------------*/
 .navbar{
   min-width:100%;
@@ -465,6 +471,8 @@ input[type="checkbox"]{
   color: #000000;
 }
 
+
+
 .boxes {
   margin-top: 100px;
   display: flex;
@@ -585,7 +593,15 @@ input[type="checkbox"]{
   }
 }
 
+@media screen and (max-width: 320px) {
+  .container h1{
+    font-size: 20px !important;
+  }
 
+  .education{
+    font-size: 20px !important;
+  }
+  }
 
 /*--------------------------------*/
 
