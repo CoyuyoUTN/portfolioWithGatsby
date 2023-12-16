@@ -1,5 +1,5 @@
 import * as React from "react";
-import "antd/dist/antd.css";
+
 
 import MainPage from "../components/MainPage";
 import Nav from "../components/Nav";
